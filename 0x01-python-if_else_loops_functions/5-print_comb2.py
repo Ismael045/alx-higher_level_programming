@@ -6,6 +6,8 @@
 #
 
 for i in range(0, 99):
-    print(f"{i:02d}" if i > 98 else f"{i:02d}", end=", ")
-print(f"99")
+
+    print("{:02d}".format(number), end=", ")
+
+print(99)
 

@@ -4,7 +4,9 @@
 # demonstrates how to use loops and an if condition to affect program output
 #
 
-for i in range(0, 8):
-    for j in range(i + 1, 10):
-        print(f"{i}{j}, ", end="")
+for first_digit in range(0, 8):
+    for second_digit in range(0, 10):
+        if not (second_digit <= first_digit):
+            print("{:d}{:d}".format(first_digit, second_digit), end=", ")
+
 print("89")

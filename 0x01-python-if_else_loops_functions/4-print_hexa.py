@@ -6,5 +6,5 @@
 # demonstrates how to use a loop to affect program output
 #
 
-for i in range(0,99):
-    print(f"{i} = 0x{i:x}" ,end="\n")
+for number in range(0,99):
+    print("{:d} = {}".format(number, hex(number)))
