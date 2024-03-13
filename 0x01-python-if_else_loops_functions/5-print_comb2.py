@@ -5,9 +5,9 @@
 # demonstrates how to use a loop and string formatting to affect program output
 #
 
-for i in range(0, 99):
+for number in range(0, 99):
 
-    print("{:02d}".format(number), end=", ")
+    print("{:02d}, ".format(number), end=", ")
 
-print(99)
+print("99")
 
